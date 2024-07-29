@@ -1,5 +1,7 @@
-# A first-level heading
-## A second-level heading
-### A third-level heading
+# Equipe: Gabriel Okidoi, Lázaro Freitas e Mônica Krieger
 
-![image](https://github.com/user-attachments/assets/55345815-ae00-4717-ad34-290720d20bb5)
+## Proposta de projeto: 
+Loja de suplementos online
+
+### Serão os três usuários: Cliente, Cliente Premium (sistema de ganho de pontos) e Vendedor (cadastra produtos)
+Terá tela de login, barra de pesquisa, filtro de produtos e/ou lista de desejos. Ainda terá a tela para cadastro de produtos e tela para conferir quantidade de pontos e progresso até o próximo brinde.
