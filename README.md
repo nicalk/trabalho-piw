@@ -1,6 +1,6 @@
-Equipe: Gabriel Okidoi, Lázaro Freitas e Mônica Krieger
+## Equipe: Gabriel Okidoi, Lázaro Freitas e Mônica Krieger
 
-Proposta de projeto: 
+### Proposta de projeto: 
 Loja de suplementos online
 
 Serão os três usuários: Cliente, Cliente Premium (sistema de ganho de pontos) e Vendedor (cadastra produtos)
