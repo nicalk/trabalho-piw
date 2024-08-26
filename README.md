@@ -1,6 +1,6 @@
 # :checkered_flag: LOJA DE SUPLEMENTOS
 
-Será uma loja de suplementos online, com um total de três usuários, sem contar o usuário não logado, e terá algumas das principais funcionalidades de uma loja online
+Será uma loja de suplementos online, com um total de três usuários, sem contar o usuário não logado, e terá algumas das principais funcionalidades de uma loja online, totalizando cinco funcionalidades
 
 ## :technologist: Membros da equipe
 
