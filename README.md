@@ -2,7 +2,7 @@
 
 Será uma loja de suplementos online, com um total de três usuários, sem contar o usuário não logado, e terá algumas das principais funcionalidades de uma loja online
 
-## :technologist: Gabriel Okidoi, Lázaro Freitas e Mônica Krieger
+## :technologist: Membros da equipe
 
 - 514745, Gabriel Okidoi e DD
 - 514496, Lázaro Freitas e DD
