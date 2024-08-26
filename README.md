@@ -4,9 +4,9 @@ Será uma loja de suplementos online, com um total de três usuários, sem conta
 
 ## :technologist: Gabriel Okidoi, Lázaro Freitas e Mônica Krieger
 
-514745, Gabriel Okidoi e DD
-514496, Lázaro Freitas e DD
-509529, Mônica Krieger e DD
+- 514745, Gabriel Okidoi e DD
+- 514496, Lázaro Freitas e DD
+- 509529, Mônica Krieger e DD
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
