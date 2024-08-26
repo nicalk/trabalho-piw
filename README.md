@@ -1,6 +1,6 @@
 # :checkered_flag: LOJA DE SUPLEMENTOS
 
-Será uma loja de suplementos online, com um total de três usuários, sem contar o usuário não logado, e terá algumas das principais funcionalidades de uma loja online, totalizando cinco funcionalidades
+Uma loja online de suplementos
 
 ## :technologist: Membros da equipe
 
@@ -14,14 +14,14 @@ Cliente não logado, cliente logado, cliente premium (sistema de ganho de pontos
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema
+Usuários e produtos (suplementos)
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-- Tela de login (acessévies a todos os usuários)
-- Barra de pesquisa (acessévies a todos os usuários)
-- Filtro de produtos e/ou lista de desejos (acessévies a todos os usuários)
-- Tela para cadastro de produtos 
+- Usuários poderão pesquisar por suplementos (acessévies a todos os usuários)
+- Usuários podem filtrar os produtos (acessévies a todos os usuários)
+- Usuários podem acresentar produtos a lista de desejos (acessévies a todos os usuários)
+- O vendedor da loja pode adicionar suplementos
 - Tela para conferir quantidade de pontos e progresso até o próximo brinde
 
 ----
