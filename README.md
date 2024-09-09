@@ -18,11 +18,12 @@ Usuários e produtos (suplementos)
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-- Usuários poderão pesquisar por suplementos (acessévies a todos os usuários)
-- Usuários podem filtrar os produtos (acessévies a todos os usuários)
-- Usuários podem acresentar produtos a lista de desejos (acessévies a todos os usuários)
-- O vendedor da loja pode adicionar suplementos
-- Tela para conferir quantidade de pontos e progresso até o próximo brinde
+- Usuários poderão pesquisar por suplementos (acessével a todos os clientes)
+- Usuários podem filtrar os produtos (acessével a todos os clientes)
+- Usuários podem acresentar produtos a lista de desejos (acessével a clientes logados)
+- Usuários podem acresentar produtos ao carinho (acessével a todos os clientes)
+- ~~O vendedor da loja pode adicionar suplementos~~
+- ~~Clientes premium podem conferir quantidade de pontos e progresso até o próximo brinde~~
 
 ----
 
