@@ -16,7 +16,7 @@ const lightTheme = {
   colors: {
     primary: '#1D1D1D',
     secondary: '#861517',
-    tertiary: '#861517',
+    tertiary: '#FFFFFF',
   },
 }
 
