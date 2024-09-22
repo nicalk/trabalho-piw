@@ -8,7 +8,7 @@
 import { createRouter, createWebHistory } from 'vue-router/auto'
 
 const routes = [
-  { path: '/', component: () => import("@/views/PaginaInicial.vue")}
+  { path: '/', component: () => import('@/views/PaginaInicial.vue') },
 ]
 
 const router = createRouter({
