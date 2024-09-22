@@ -69,11 +69,14 @@
         </v-row>
       </v-card>
     </header>
+    <footer>
+      <rodape />
+    </footer>
   </v-app>
 </template>
 
 <script lang="ts" setup>
-//
+import rodape from '@/components/Rodape.vue'
 </script>
 
 <style>
