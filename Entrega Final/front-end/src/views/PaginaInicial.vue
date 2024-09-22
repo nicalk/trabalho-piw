@@ -1,5 +1,5 @@
 <template>
-  <v-carousel>
+  <v-carousel class="margem">
     <v-carousel-item
       src="@/assets/Carousel.png"
       cover
@@ -143,23 +143,12 @@
       </v-img>
     </v-col>
   </v-row>
-  <v-card>
-    <p>Aaaaaaa</p>
-  </v-card>
 </template>
 <script setup lang="ts">
 </script>
 
-<style>
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparência no fundo */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style scoped>
+.margem{
+  margin-top: 200px;
 }
 </style>
