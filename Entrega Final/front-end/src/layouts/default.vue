@@ -1,7 +1,10 @@
 <template>
   <v-app>
-    <v-main>
-      <v-card class="pa-4" flat>
+    <v-main class="margem">
+      <router-view />
+    </v-main>
+    <header>
+      <v-card class="pa-4 position-fixed top-0" flat width="100%">
         <v-row>
           <v-col cols="1">
             <v-img
@@ -65,12 +68,16 @@
           </v-card>
         </v-row>
       </v-card>
-      <router-view />
-    </v-main>
-
+    </header>
   </v-app>
 </template>
 
 <script lang="ts" setup>
 //
 </script>
+
+<style>
+.margem{
+  margin-top: 200px;
+}
+</style>
