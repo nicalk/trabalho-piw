@@ -1,5 +1,5 @@
 <template>
-  <v-card class="bg-primary pa-6">
+  <v-card class="bg-primary pa-6 margem">
     <v-row>
       <v-col class="d-flex align-center justify-center">
         <v-icon class="pr-1">mdi-currency-usd</v-icon>
@@ -190,3 +190,8 @@
 </template>
 <script setup lang="ts">
 </script>
+<style scoped>
+.margem{
+  margin-top: 200px;
+}
+</style>

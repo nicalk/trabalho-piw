@@ -1,5 +1,5 @@
 <template>
-  <v-divider :thickness="3" class="mb-8"></v-divider>
+  <v-divider :thickness="3" class="mb-8 margem"></v-divider>
   <v-card class="pl-10 pr-10 d-flex justify-space-between mb-4" flat>
     <p class="text-h5 font-weight-medium">Carrinho de compras</p>
     <v-card flat>
@@ -82,3 +82,8 @@
 </template>
 <script setup lang="ts">
 </script>
+<style scoped>
+.margem{
+  margin-top: 200px;
+}
+</style>
