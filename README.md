@@ -36,11 +36,11 @@ Usuários e produtos (suplementos)
 
 **Frontend:**
 
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+Vue, Vuetify, Typescript
 
 **Backend:**
 
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+Node, Express, TypeOrm, SqLite, Typescript
 
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
