@@ -1,22 +1,14 @@
 import { DataSource } from "typeorm";
 import { User } from "./entities/Post.entities";
+import { Produto } from "./entities/Produtos.entities";
+import { Carrinho } from "./entities/Carrinho.entities";
 
 export const AppDataSource = new DataSource({
-    type: "better-sqlite3",
-    // host: "localhost",
-    // port: 5432,
-    // username: "teste",
-    // password: "teste",
+    type: "sqlite",
     database: "./main.sqlite",
     synchronize: true,
-    logging: true,
-    entities: [User],
+    logging: false,
+    entities: [User, Produto, Carrinho],
     subscribers: [],
     migrations: [],
 })
-
-AppDataSource.initialize()
-.then(() => {
-    console.log("inicializado");
-})
-.catch((e) => console.log(e))

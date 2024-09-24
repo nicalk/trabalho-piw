@@ -22,7 +22,7 @@ app.engine("hbs", engine({
 
 app.set("views", path.join(__dirname, "/views"));
 
-// app.get("/usuarios", (req, res) => res.send(dados))
+app.get("/usuarios", (req, res) => res.send(dados))
 app.post("/usuarios", async(req, res) => {
   let {id, papel, nome, email, idade, senha} = req.body;
 
@@ -41,7 +41,7 @@ app.post("/usuarios", async(req, res) => {
     console.log(e);
   }
   
-  res.status(201).json({ message: 'Usuário criado com sucesso!' });
+  // res.status(201).json({ message: 'Usuário criado com sucesso!' });
 })
 // app.put("/usuarios/:id", (req, res) => {
 //   let id = req.body.id

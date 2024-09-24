@@ -6,9 +6,6 @@ export class User {
     id: number
 
     @Column()
-    papel: string;
-
-    @Column()
     nome: string
 
     @Column()
