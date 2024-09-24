@@ -48,9 +48,9 @@ Node, Express, TypeOrm, SqLite, Typescript
 
 | Entidade| Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
-| Entidade 1 | X |  X  |  | X |
-| Entidade 2 | X |    |  X | X |
-| Entidade 3 | X |    |  |  |
+| Usuario | X |  X  | X | X |
+| Produto | X |  X  |  X | X |
+| Carrinho | X | X   |  X | X |
 
 > Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
 
