@@ -18,12 +18,12 @@
               density="compact"
             />
             <v-text-field
-              label="Telefone"
+              label="E-mail"
               variant="outlined"
               density="compact"
             />
             <v-text-field
-              label="E-mail"
+              label="Idade"
               variant="outlined"
               density="compact"
             />
@@ -31,13 +31,9 @@
               label="Senha"
               variant="outlined"
               density="compact"
+              type="password"
             />
-            <v-text-field
-              label="Confirme a senha"
-              variant="outlined"
-              density="compact"
-            />
-            <v-btn color="secondary" width="100%" size="large" class="text-none mb-4">
+            <v-btn color="secondary" width="100%" size="large" class="text-none mb-4" >
               Cadastre-se
             </v-btn>
           </v-card>
@@ -48,4 +44,5 @@
   </v-card>
 </template>
 <script setup lang="ts">
+
 </script>
