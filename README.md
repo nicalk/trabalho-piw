@@ -63,11 +63,15 @@ Node, Express, TypeOrm, SqLite, Typescript
 | PUT | localhost:8000/usuarios?id
 | DELETE | localhost:8000/usuarios?id
 
+| Método HTTP | URL |
+| --- | --- |
 | GET | localhost:8000/produtos
 | POST | localhost:8000/produtos
 | PUT | localhost:8000/produtos
 | DELETE | localhost:8000/produtos
 
+| Método HTTP | URL |
+| --- | --- |
 | GET | localhost:8000/carrinho
 | POST | localhost:8000/carrinho
 | PUT | localhost:8000/carrinho
