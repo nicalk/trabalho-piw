@@ -58,5 +58,17 @@ Node, Express, TypeOrm, SqLite, Typescript
 
 | Método HTTP | URL |
 | --- | --- |
-| GET | api/entidade1/|
-| POST | api/entidade2 |
+| GET | localhost:8000/usuarios
+| POST | localhost:8000/usuarios
+| PUT | localhost:8000/usuarios?id
+| DELETE | localhost:8000/usuarios?id
+
+| GET | localhost:8000/produtos
+| POST | localhost:8000/produtos
+| PUT | localhost:8000/produtos
+| DELETE | localhost:8000/produtos
+
+| GET | localhost:8000/carrinho
+| POST | localhost:8000/carrinho
+| PUT | localhost:8000/carrinho
+| DELETE | localhost:8000/carrinho
