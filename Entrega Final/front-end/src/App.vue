@@ -1,12 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <default />
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts" setup>
 //
-  import Default from '@/layouts/default.vue'
 </script>

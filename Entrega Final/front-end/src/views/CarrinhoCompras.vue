@@ -55,6 +55,51 @@
       </v-col>
     </v-row>
   </v-card>
+  <v-card class="pl-10 pr-10 pt-6" flat>
+    <v-row cols="12">
+      <v-col class="d-flex" cols="3">
+        <v-checkbox color="secondary"></v-checkbox>
+        <v-img
+          height="150"
+          src="@/assets/titanium.png"
+        />
+      </v-col>
+      <v-col>
+        <v-row class="d-flex flex-column">
+          <p class="text-h6">Mass Titanium 17500 Zero Lactose 2,4kg - Max TitaniumChocolate</p>
+          <p class="text-subtitle-2 text-success">Em estoque</p>
+        </v-row>
+        <v-row class="d-flex justify-end">
+          <v-card color="secondary pa-1 mr-3" flat>
+            <p class="text-subtitle-2 font-weight-medium">12% off</p>
+          </v-card>
+        </v-row>
+        <v-row cols="12">
+          <v-col cols="2">
+            <v-select
+              label="Qtd:"
+              :items="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+              density="compact"
+              variant="outlined"
+            />
+          </v-col>
+          <v-col class="d-flex align-baseline">
+            <v-btn variant="text" class="text-none">
+              Excluir
+            </v-btn>
+            <p>|</p>
+            <v-btn variant="text" class="text-none">
+              Mover para lista de desejos
+            </v-btn>
+          </v-col>
+          <v-col cols="4" class="d-flex flex-column align-end">
+            <p class="text-h5 font-weight-black">R$ 239,00</p>
+            <p class="text-subtitle-2">De: R$ 299,00</p>
+          </v-col>
+        </v-row>
+      </v-col>
+    </v-row>
+  </v-card>
   <v-divider :thickness="3" class="mt-4"></v-divider>
   <v-row cols="12" class="d-flex pa-10 pb-0">
     <v-col class="mt-6">
@@ -79,8 +124,12 @@
       </v-card>
     </v-col>
   </v-row>
+  <Menu />
+  <Rodape />
 </template>
 <script setup lang="ts">
+import Menu from '@/components/Menu.vue'
+import Rodape from '@/components/Rodape.vue'
 </script>
 <style scoped>
 .margem{

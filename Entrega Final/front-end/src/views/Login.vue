@@ -14,11 +14,13 @@
           <v-card class="w-75 h-75" flat>
             <v-text-field
               label="E-mail"
+              type="email"
               variant="outlined"
               density="compact"
             />
             <v-text-field
               label="Senha"
+              type="password"
               variant="outlined"
               density="compact"
             />
@@ -31,7 +33,7 @@
             <v-card class=" d-flex flex-column align-center mb-6" flat>
               <p class="text-h6">ou</p>
             </v-card>
-            <v-btn variant="outlined" width="100%" size="large" class="text-none">
+            <v-btn variant="outlined" width="100%" size="large" class="text-none" @click="IrParaCadastro">
               Cadastre-se
             </v-btn>
           </v-card>
@@ -42,4 +44,10 @@
   </v-card>
 </template>
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const IrParaCadastro = () => {
+  router.push('/Cadastro')
+}
 </script>

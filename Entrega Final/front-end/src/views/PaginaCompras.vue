@@ -1,3 +1,20 @@
+<script setup lang="ts">
+import Menu from '@/components/Menu.vue'
+import Rodape from '@/components/Rodape.vue'
+import { ref } from 'vue'
+const iconeCoracao = ref('mdi-heart-outline')
+const corCoracao = ref('black')
+
+const gostei = () => {
+  if (iconeCoracao.value === 'mdi-heart-outline') {
+    iconeCoracao.value = 'mdi-heart'
+    corCoracao.value = 'red'
+  } else {
+    iconeCoracao.value = 'mdi-heart-outline'
+    corCoracao.value = 'black'
+  }
+}
+</script>
 <template>
   <v-card class="bg-primary pa-6 margem">
     <v-row>
@@ -21,40 +38,46 @@
   </v-card>
   <!--  Inicio Imagem Compra-->
   <v-card class="pa-10 pb-0">
-    <v-row cols="12" class="d-flex align-center">
+    <v-row class="d-flex align-center" cols="12">
       <v-col cols="7">
         <v-col class="d-flex">
-          <v-col cols="1" class="d-flex flex-column justify-center">
-            <v-card variant="outlined" class="mb-2" width="80">
+          <v-col class="d-flex flex-column justify-center" cols="1">
+            <v-card class="mb-2" variant="outlined" width="80">
               <v-img
+                height="100"
                 src="@/assets/Mini1.png"
-                height="100"
               />
             </v-card>
-            <v-card variant="outlined" class="mb-2" width="80">
+            <v-card class="mb-2" variant="outlined" width="80">
               <v-img
+                height="100"
                 src="@/assets/Mini2.png"
-                height="100"
               />
             </v-card>
-            <v-card variant="outlined" class="mb-2" width="80">
+            <v-card class="mb-2" variant="outlined" width="80">
               <v-img
+                height="100"
                 src="@/assets/Mini3.png"
-                height="100"
               />
             </v-card>
-            <v-card variant="outlined" class="mb-2" width="80">
+            <v-card class="mb-2" variant="outlined" width="80">
               <v-img
-                src="@/assets/Mini4.png"
                 height="100"
+                src="@/assets/Mini4.png"
               />
             </v-card>
           </v-col>
           <v-col>
             <v-img
-              src="@/assets/ImagemWhey.png"
               height="500px"
-            />
+              src="@/assets/ImagemWhey.png"
+            >
+              <v-card class="d-flex justify-end bg-transparent align-center" flat height="100">
+                <v-icon class="text-h4" :color="corCoracao" @click="gostei">
+                  {{ iconeCoracao }}
+                </v-icon>
+              </v-card>
+            </v-img>
           </v-col>
         </v-col>
         <v-row class="pa-6 pt-1">
@@ -67,6 +90,7 @@
           </v-col>
         </v-row>
       </v-col>
+      <!--      -->
       <v-col>
         <v-row>
           <p class="text-h5 font-weight-bold text-justify">Kit Mais músculos, força e disposição - <span class="text-h5">Max Titanium 100% Whey Refil Baunilha + Creatina 300g + Hórus 150g Frutas Vermelhas</span></p>
@@ -79,7 +103,7 @@
             <v-icon>mdi-star-outline</v-icon>
             <p class="text-subtitle-2 font-weight-light pl-10">138 avaliações</p>
           </v-card>
-          <v-divider :thickness="2" class="mt-2"></v-divider>
+          <v-divider class="mt-2" :thickness="2" />
         </v-row>
         <v-row class="d-flex justify-center">
           <v-card class="d-flex pa-6" flat>
@@ -93,15 +117,15 @@
         <v-col>
           <p class="text-h5 font-weight-medium mb-2">Em estoque</p>
           <v-select
+            class="mb-4"
             :items="[1,2, 3, 4, 5, 6, 7, 8, 9, 10]"
             label="Quantidade:"
             variant="outlined"
-            class="mb-4"
           />
-          <v-btn variant="outlined" width="100%" size="large" class="mb-3">
+          <v-btn class="mb-3" size="large" variant="outlined" width="100%">
             Adicionar ao carrinho
           </v-btn>
-          <v-btn color="secondary" width="100%" size="large">
+          <v-btn color="secondary" size="large" width="100%">
             Comprar agora
           </v-btn>
         </v-col>
@@ -112,7 +136,7 @@
   <v-card flat>
     <v-row>
       <v-col class="d-flex align-center">
-        <v-divider :thickness="4" color="black"></v-divider>
+        <v-divider color="black" :thickness="4" />
       </v-col>
       <v-col>
         <v-container class="mt-14">
@@ -125,11 +149,11 @@
         </v-container>
       </v-col>
       <v-col class="d-flex align-center">
-        <v-divider :thickness="4" color="black"></v-divider>
+        <v-divider color="black" :thickness="4" />
       </v-col>
     </v-row>
 
-    <v-card flat class="d-flex justify-space-around">
+    <v-card class="d-flex justify-space-around" flat>
       <v-card class="pa-6" flat width="200px">
         <v-img
           height="200"
@@ -152,7 +176,7 @@
           <p class="text-body-2 text-decoration-line-through">R$149,00</p>
         </v-card>
       </v-card>
-      <v-card class="pa-6" flat  width="200px">
+      <v-card class="pa-6" flat width="200px">
         <v-img
           height="200"
           src="@/assets/whey.png"
@@ -163,7 +187,7 @@
           <p class="text-body-2 text-decoration-line-through">R$139,00</p>
         </v-card>
       </v-card>
-      <v-card class="pa-6" flat  width="200px">
+      <v-card class="pa-6" flat width="200px">
         <v-img
           height="200"
           src="@/assets/super.png"
@@ -187,9 +211,10 @@
       </v-card>
     </v-card>
   </v-card>
+  <!--  O menu ta embaixo porque se colocar em cima o conteudo da pagina passa por cima-->
+  <Menu />
+  <Rodape />
 </template>
-<script setup lang="ts">
-</script>
 <style scoped>
 .margem{
   margin-top: 200px;
